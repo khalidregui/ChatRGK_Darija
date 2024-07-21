@@ -34,10 +34,30 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://img.freepik.com/vecteurs-libre/fond-ornemental-arabe-style-papier_23-2148877283.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1715472000&semt=ais_user');
+    background-image: url('https://www.lopinion.ma/photo/art/grande/64534735-46249300.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Helvetica, sans-serif;
   }
-  
+  /* body {
+    background-image: url('gmisteam.jpg');
+    height: 100vh;
+    margin: 0;
+} */
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/441164311_448139294535203_6569722382690759555_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OHhXBi8OSesQ7kNvgHZb8Rz&_nc_ht=scontent.frba2-2.fna&oh=00_AYBKCujWVX-uqDTMUg4g0-YcLa_0jT2wrljx4RbDT4IkvQ&oe=6652EC57') no-repeat center center / cover;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.6); /* Couche blanche semi-transparente */
+    z-index: -1; /* Place l'image de fond derrière le contenu */
+}
   .msger {
     display: flex;
     flex-flow: column wrap;
@@ -48,7 +68,7 @@
     height: calc(100% - 50px);
     border: var(--border);
     border-radius: 5px;
-    background: var(--msger-bg);
+    background: rgba(255, 255, 255, 0.4);
     box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
   }
   
@@ -159,7 +179,7 @@
   }
   
   .msger-chat {
-    background-color: #fcfcfe;
+    background-color: rgba(255, 255, 255, 0.4);
    }
   </style>
 </head>
