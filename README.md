@@ -33,6 +33,6 @@ This project allows you to interact with a chatbot using PDF documents as input.
   * After running the final cell, you will see a link to an HTML page where you can communicate with your chatbot.
 
 ## Troubleshooting
-If you encounter any issues, please contact me through my website: [regui.online](regui.online).
+If you encounter any issues, please contact me through my website: [regui.online](https://www.regui.online).
 
 ## Enjoy!
