@@ -9,8 +9,8 @@ This project allows you to interact with a chatbot using PDF documents as input.
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/khalidregui/ChatRGK_Darija.git
+   cd ChatRGK_Darija
    ```
 2. **Install Dependencies**
 
